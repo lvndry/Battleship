@@ -1,7 +1,7 @@
 #include "battleship.h"
 
-int main(){
 
+int main(){
 	Player p1, p2;
 	int pause; //pour les scanf de fin/debut de tour
 
