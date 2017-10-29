@@ -1,2 +1,2 @@
 ## Battleship
-Simple battleship game
+Battleship game in C
