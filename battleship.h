@@ -17,4 +17,4 @@ void init(Player*); //LANDRY : permet au joueur de placer ses bateaux
 int is_free(Player* player, int x, int y, int lenght, char d); //LANDRY
 void attack(Player*); //VINCENT: Demande les coordonées ou tu veux attaquer et dit si tu as touche ou pas un bateau
 void display(Player*); //LEO : Affiche la map du joueur, puis la vision de la map ennemie
-void isAlive(Player*); //CEDRIC : Verifie que le joueur n'a pas perdu
+int isAlive(Player*); //CEDRIC : Verifie que le joueur n'a pas perdu
