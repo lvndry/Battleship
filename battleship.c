@@ -137,7 +137,3 @@ int is_free(Player* player, int x, int y, int lenght, char d){
 	}
 	return 1;
 }
-
-int print(Player* player){
-	
-}
