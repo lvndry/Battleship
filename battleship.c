@@ -15,7 +15,7 @@ void init(Player* player){
 		printf("Dans quel directon voulez-vous le placer ?\nTapez v pour vertical ou h pour horizontal : ");
 		scanf("%c", &d);
 		getchar();
-	}while(is_free(player, x, y, CROISEUR, d) == 0);
+	}while(is_free(player, x, y, PORTE_AVION, d) == 0);
 	
 	if(d == 'v'){
 		for(int i = y; i < PORTE_AVION; i++)
@@ -152,9 +152,6 @@ void display(Player* player)
 			printf("%d\t",player->map[i][j]);
 		}
 		printf("\n");
-
-
-
 	}
 
 	printf("\n\n");
@@ -164,18 +161,10 @@ void display(Player* player)
 
 	for(i=0 ; i < BOARD_SIZE] ; i++)
 	{
-
-		for(j=0 ; j<BOARD_SIZE ; i++)
+    for(j=0 ; j<BOARD_SIZE ; i++)
 		{
 			printf("%d\t",player->ennemy_map[i][j]);
 		}
 		printf("\n");
-
-
-
 	}	
-
-
-
-
 }
