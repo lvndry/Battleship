@@ -15,7 +15,7 @@ void init(Player* player){
 		printf("Dans quel directon voulez-vous le placer ?\nTapez v pour vertical ou h pour horizontal : ");
 		scanf("%c", &d);
 		getchar();
-	}while(is_free(player, x, y, CROISEUR, d) == 0);
+	}while(is_free(player, x, y, PORTE_AVION, d) == 0);
 	
 	if(d == 'v'){
 		for(int i = y; i < PORTE_AVION; i++)
@@ -136,4 +136,8 @@ int is_free(Player* player, int x, int y, int lenght, char d){
 		}
 	}
 	return 1;
+}
+
+int print(Player* player){
+	
 }
