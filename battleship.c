@@ -168,3 +168,9 @@ void display(Player* player)
 	}	
 
 }
+
+
+int isAlive(Player*)
+{
+	// test
+}
