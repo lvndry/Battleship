@@ -173,4 +173,6 @@ void display(Player* player)
 int isAlive(Player*)
 {
 	// test
+
+	printf("\n je suis en train de galere sur GIT PTDR");
 }
