@@ -139,7 +139,6 @@ int is_free(Player* player, int x, int y, int lenght, char d){
 }
 
 
-
 void display(Player* player)
 {
 	int i,j; 
@@ -152,9 +151,6 @@ void display(Player* player)
 			printf("%d\t",player->map[i][j]);
 		}
 		printf("\n");
-
-
-
 	}
 
 	printf("\n\n");
@@ -171,11 +167,7 @@ void display(Player* player)
 		}
 		printf("\n");
 
-
-
 	}	
 
-
-
-
 }
+
